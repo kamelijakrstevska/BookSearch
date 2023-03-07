@@ -1,0 +1,55 @@
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  
+}
+
+h1{
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 80%;
+}
+
+button[type="button"] {
+  padding: 10px 20px;
+  background-color: #1E90FF;
+  border: none;
+  color: #fff;
+}
+
+button[type="button"]:hover {
+  background-color: #4682B4;
+}
+
+#books-list {
+  list-style: none;
+  padding: 0;
+}
+
+.books-list__item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px lightblue inset;
+}
+
+.books-list__item h2 {
+  margin: 0;
+}
+
+.books-list__item p {
+  margin: 0;
+  padding: 2px;
+}
+
+/*responsivness of the webpage and display properly on desktop and mobile
+devices*/
+@media screen and (max-width: 600px) {
+  .books-list {
+    text-align: center;
+  }
+}
